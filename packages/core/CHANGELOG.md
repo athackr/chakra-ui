@@ -3,7 +3,65 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 1.0.0-rc.8 (2020-10-29)
+# 1.0.0-rc.10 (2020-11-10)
+
+### Bug Fixes
+
+- [#891](https://github.com/chakra-ui/chakra-ui/issues/891)
+  ([e107acc](https://github.com/chakra-ui/chakra-ui/commit/e107acc8487898a965b0d695c1da71f46fc56d5e))
+- Adding PIN input to core export
+  ([301483e](https://github.com/chakra-ui/chakra-ui/commit/301483e47996d266612f4f282611dfffca333bbc))
+- forward theme.config to ColorModeProvider
+  ([097c783](https://github.com/chakra-ui/chakra-ui/commit/097c783a00736a119b253fb26316c7538de929c5))
+- package json exports
+  ([a10c0bc](https://github.com/chakra-ui/chakra-ui/commit/a10c0bcb809314a96d58c7febd9b2755e8997603))
+- stack key issue and yarn2 deps issue
+  ([d6cb6b8](https://github.com/chakra-ui/chakra-ui/commit/d6cb6b8fd964729efdf41b1e29c888a3c101316c))
+- types in color-mode-provider
+  ([0cd3f11](https://github.com/chakra-ui/chakra-ui/commit/0cd3f11a9033608242408de792d024d344332f3a))
+- **core:** add prop to core provider
+  ([b209d76](https://github.com/chakra-ui/chakra-ui/commit/b209d76f34f6000f42c0b5403022bafaabc329ce))
+- Update theme export in core package
+  ([3d22773](https://github.com/chakra-ui/chakra-ui/commit/3d22773a69a6a33103742b98f340380962bed583))
+- **chakra-provider:** portalZIndex detection
+  ([7ab9e1b](https://github.com/chakra-ui/chakra-ui/commit/7ab9e1ba80de4239c5fcc491f234d1c81a182420))
+- **core:** flip load order of CSSReset and GlobalStyles
+  ([b7d657c](https://github.com/chakra-ui/chakra-ui/commit/b7d657c018261bc643326a4df89116472e421656))
+- color-mode provider prop
+  ([459d098](https://github.com/chakra-ui/chakra-ui/commit/459d098693a1ad0bf3c811e83d36b46f133d9923))
+- revert icon fallback to correct svg path
+  ([afa4dbb](https://github.com/chakra-ui/chakra-ui/commit/afa4dbb49931391778f635784bddd3395d555df0))
+- ts issue with sx prop
+  ([d3b1340](https://github.com/chakra-ui/chakra-ui/commit/d3b1340cb255937927b4d4c56ce218141570b951))
+- **core:** add Skeleton export
+  ([9255f24](https://github.com/chakra-ui/chakra-ui/commit/9255f24a3653f6f71773d4fdf7221c40aeddb873))
+
+### Features
+
+- add motion to checkbox icons
+  ([9130b4c](https://github.com/chakra-ui/chakra-ui/commit/9130b4c17e9ed9b8d62d426043cf7f3d142304ec))
+- move drawer into modal and update transitions
+  ([d1a6fe4](https://github.com/chakra-ui/chakra-ui/commit/d1a6fe409a8aa67867b5cbb14006dfe0dd7e4e9b))
+- **extend-theme:** do not mutate theme and specify return type explicitly
+  ([2caa77e](https://github.com/chakra-ui/chakra-ui/commit/2caa77ef1e13ca4ca637a64153ee16cbf4bda89b))
+- **extend-theme:** evaluate function results in extendTheme
+  ([b1feeaf](https://github.com/chakra-ui/chakra-ui/commit/b1feeaf874da347e9bf564d13598cd8f596e9b07))
+- add extend-theme function to core
+  ([a32b916](https://github.com/chakra-ui/chakra-ui/commit/a32b9167d9a22f23e85515d04902d6ac2e7093f9))
+- **storybook:** Support Storybook Composition
+  ([c50544f](https://github.com/chakra-ui/chakra-ui/commit/c50544f9912afaf29f6f194c67e482c7ba13beac))
+
+### Reverts
+
+- theme export in core. the reported issue will go away once we release new rc
+  ([b98d42d](https://github.com/chakra-ui/chakra-ui/commit/b98d42d46112fab8c8b904dd02f1212a5626e8bc))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 1.0.0-rc.9 (2020-10-29)
 
 ### Bug Fixes
 
@@ -18,23 +76,23 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.7 (2020-10-25)
 
-**Note:** Version bump only for package @chakra-ui/core
+**Note:** Version bump only for package @hackr/chakra-ui-core
 
 # 1.0.0-rc.6 (2020-10-25)
 
-**Note:** Version bump only for package @chakra-ui/core
+**Note:** Version bump only for package @hackr/chakra-ui-core
 
 # 1.0.0-rc.5 (2020-09-27)
 
-**Note:** Version bump only for package @chakra-ui/core
+**Note:** Version bump only for package @hackr/chakra-ui-core
 
 # 1.0.0-rc.4 (2020-09-25)
 
-**Note:** Version bump only for package @chakra-ui/core
+**Note:** Version bump only for package @hackr/chakra-ui-core
 
 # 1.0.0-rc.3 (2020-08-30)
 
-**Note:** Version bump only for package @chakra-ui/core
+**Note:** Version bump only for package @hackr/chakra-ui-core
 
 # Change Log
 
@@ -43,14 +101,14 @@ All notable changes to this project will be documented in this file. See
 
 # 1.0.0-rc.2 (2020-08-09)
 
-**Note:** Version bump only for package @chakra-ui/core
+**Note:** Version bump only for package @hackr/chakra-ui-core
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.1](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@1.0.0-rc.0...@chakra-ui/core@1.0.0-rc.1) (2020-08-06)
+# [1.0.0-rc.1](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@1.0.0-rc.0...@hackr/chakra-ui-core@1.0.0-rc.1) (2020-08-06)
 
 ### Bug Fixes
 
@@ -62,34 +120,34 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-rc.0](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@1.0.0-next.7...@chakra-ui/core@1.0.0-rc.0) (2020-07-26)
+# [1.0.0-rc.0](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@1.0.0-next.7...@hackr/chakra-ui-core@1.0.0-rc.0) (2020-07-26)
 
-**Note:** Version bump only for package @chakra-ui/core
-
-# Change Log
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
-# [1.0.0-next.7](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@1.0.0-next.6...@chakra-ui/core@1.0.0-next.7) (2020-07-26)
-
-**Note:** Version bump only for package @chakra-ui/core
+**Note:** Version bump only for package @hackr/chakra-ui-core
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.6](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@1.0.0-next.5...@chakra-ui/core@1.0.0-next.6) (2020-07-15)
+# [1.0.0-next.7](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@1.0.0-next.6...@hackr/chakra-ui-core@1.0.0-next.7) (2020-07-26)
 
-**Note:** Version bump only for package @chakra-ui/core
+**Note:** Version bump only for package @hackr/chakra-ui-core
 
 # Change Log
 
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.5](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@1.0.0-next.4...@chakra-ui/core@1.0.0-next.5) (2020-07-15)
+# [1.0.0-next.6](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@1.0.0-next.5...@hackr/chakra-ui-core@1.0.0-next.6) (2020-07-15)
+
+**Note:** Version bump only for package @hackr/chakra-ui-core
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.0.0-next.5](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@1.0.0-next.4...@hackr/chakra-ui-core@1.0.0-next.5) (2020-07-15)
 
 ### Bug Fixes
 
@@ -101,7 +159,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.4](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@0.8.0...@chakra-ui/core@1.0.0-next.4) (2020-07-01)
+# [1.0.0-next.4](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@0.8.0...@hackr/chakra-ui-core@1.0.0-next.4) (2020-07-01)
 
 ### Bug Fixes
 
@@ -119,7 +177,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.3](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@0.8.0...@chakra-ui/core@1.0.0-next.3) (2020-06-28)
+# [1.0.0-next.3](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@0.8.0...@hackr/chakra-ui-core@1.0.0-next.3) (2020-06-28)
 
 ### Bug Fixes
 
@@ -135,7 +193,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-next.2](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@0.8.0...@chakra-ui/core@1.0.0-next.2) (2020-06-21)
+# [1.0.0-next.2](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@0.8.0...@hackr/chakra-ui-core@1.0.0-next.2) (2020-06-21)
 
 ### Bug Fixes
 
@@ -149,7 +207,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.4.0](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@0.3.4...@chakra-ui/core@0.4.0) (2019-10-14)
+# [0.4.0](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@0.3.4...@hackr/chakra-ui-core@0.4.0) (2019-10-14)
 
 ### Bug Fixes
 
@@ -196,7 +254,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.4](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@0.3.3...@chakra-ui/core@0.3.4) (2019-10-09)
+## [0.3.4](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@0.3.3...@hackr/chakra-ui-core@0.3.4) (2019-10-09)
 
 ### Bug Fixes
 
@@ -208,7 +266,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.3](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@0.3.2...@chakra-ui/core@0.3.3) (2019-10-09)
+## [0.3.3](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@0.3.2...@hackr/chakra-ui-core@0.3.3) (2019-10-09)
 
 ### Bug Fixes
 
@@ -236,7 +294,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.2](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@0.3.1...@chakra-ui/core@0.3.2) (2019-09-26)
+## [0.3.2](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@0.3.1...@hackr/chakra-ui-core@0.3.2) (2019-09-26)
 
 ### Bug Fixes
 
@@ -257,7 +315,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.1](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@0.3.0...@chakra-ui/core@0.3.1) (2019-09-25)
+## [0.3.1](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@0.3.0...@hackr/chakra-ui-core@0.3.1) (2019-09-25)
 
 ### Bug Fixes
 
@@ -277,7 +335,7 @@ All notable changes to this project will be documented in this file. See
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.3.0](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@0.2.8...@chakra-ui/core@0.3.0) (2019-09-24)
+# [0.3.0](https://github.com/chakra-ui/chakra-ui/compare/@hackr/chakra-ui-core@0.2.8...@hackr/chakra-ui-core@0.3.0) (2019-09-24)
 
 ### Features
 

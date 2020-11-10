@@ -1,6 +1,6 @@
 {
-  "name": "@chakra-ui/control-box",
-  "version": "1.0.0-rc.8",
+  "name": "@hackr/chakra-ui-control-box",
+  "version": "1.0.0-rc.10",
   "description": "Chakra UI ControlBox component",
   "keywords": [
     "checkbox",
@@ -49,13 +49,13 @@
     "lint": "concurrently yarn:lint:*"
   },
   "dependencies": {
-    "@chakra-ui/utils": "1.0.0-rc.8"
+    "@hackr/chakra-ui-utils": "1.0.0-rc.10"
   },
   "devDependencies": {
-    "@chakra-ui/system": "1.0.0-rc.8"
+    "@hackr/chakra-ui-system": "1.0.0-rc.10"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=1.0.0-rc.5",
+    "@hackr/chakra-ui-system": ">=1.0.0-rc.5",
     "react": "16.x || 17.x"
   }
 }

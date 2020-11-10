@@ -3,7 +3,16 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 1.0.0-rc.8 (2020-10-29)
+# [1.0.0-rc.10](https://github.com/chakra-ui/chakra-ui/compare/gatsby-plugin-chakra-ui@1.0.0-rc.8...gatsby-plugin-chakra-ui@1.0.0-rc.10) (2020-11-10)
+
+**Note:** Version bump only for package gatsby-plugin-chakra-ui
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 1.0.0-rc.9 (2020-10-29)
 
 ### Bug Fixes
 

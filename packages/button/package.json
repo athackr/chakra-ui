@@ -1,6 +1,6 @@
 {
-  "name": "@chakra-ui/button",
-  "version": "1.0.0-rc.8",
+  "name": "@hackr/chakra-ui-button",
+  "version": "1.0.0-rc.10",
   "description": "A React component that is a base button.",
   "keywords": [
     "button",
@@ -53,14 +53,14 @@
     "lint:types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@chakra-ui/system": "1.0.0-rc.8"
+    "@hackr/chakra-ui-system": "1.0.0-rc.10"
   },
   "dependencies": {
-    "@chakra-ui/spinner": "1.0.0-rc.8",
-    "@chakra-ui/utils": "1.0.0-rc.8"
+    "@hackr/chakra-ui-spinner": "1.0.0-rc.10",
+    "@hackr/chakra-ui-utils": "1.0.0-rc.10"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=1.0.0-rc.5",
+    "@hackr/chakra-ui-system": ">=1.0.0-rc.5",
     "react": "16.x || 17.x"
   }
 }

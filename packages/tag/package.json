@@ -1,6 +1,6 @@
 {
-  "name": "@chakra-ui/tag",
-  "version": "1.0.0-rc.8",
+  "name": "@hackr/chakra-ui-tag",
+  "version": "1.0.0-rc.10",
   "description": "This component displays as a tag with an optional link and/or button to remove the given tag.",
   "keywords": [
     "tag",
@@ -52,14 +52,14 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@chakra-ui/icon": "1.0.0-rc.8",
-    "@chakra-ui/utils": "1.0.0-rc.8"
+    "@hackr/chakra-ui-icon": "1.0.0-rc.10",
+    "@hackr/chakra-ui-utils": "1.0.0-rc.10"
   },
   "devDependencies": {
-    "@chakra-ui/system": "1.0.0-rc.8"
+    "@hackr/chakra-ui-system": "1.0.0-rc.10"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=1.0.0-rc.5",
+    "@hackr/chakra-ui-system": ">=1.0.0-rc.5",
     "react": "16.x || 17.x"
   }
 }

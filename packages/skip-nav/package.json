@@ -1,6 +1,6 @@
 {
-  "name": "@chakra-ui/skip-nav",
-  "version": "1.0.0-rc.8",
+  "name": "@hackr/chakra-ui-skip-nav",
+  "version": "1.0.0-rc.10",
   "description": "Skip navigation links for screen reader and keyboard users",
   "keywords": [
     "skip link",
@@ -54,13 +54,13 @@
     "lint": "concurrently yarn:lint:*"
   },
   "devDependencies": {
-    "@chakra-ui/system": "1.0.0-rc.8"
+    "@hackr/chakra-ui-system": "1.0.0-rc.10"
   },
   "dependencies": {
-    "@chakra-ui/utils": "1.0.0-rc.8"
+    "@hackr/chakra-ui-utils": "1.0.0-rc.10"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=1.0.0-rc.5",
+    "@hackr/chakra-ui-system": ">=1.0.0-rc.5",
     "react": "16.x || 17.x"
   }
 }
