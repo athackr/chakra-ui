@@ -7,13 +7,13 @@ import {
   ThemingProps,
   useMultiStyleConfig,
   HTMLChakraProps,
-} from "@chakra-ui/system"
+} from "@hackr/chakra-ui-system"
 import {
   cx,
   filterUndefined,
   getValidChildren,
   __DEV__,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { baseStyle } from "./avatar"
 

@@ -8,9 +8,9 @@ description: How to install and set up Chakra UI in your project
 Inside your React project directory, install Chakra UI by running the following:
 
 ```bash
-npm i @chakra-ui/core framer-motion
+npm i @hackr/chakra-ui-core framer-motion
 # or
-yarn add @chakra-ui/core framer-motion
+yarn add @hackr/chakra-ui-core framer-motion
 ```
 
 > For `create-react-app` installation instructions, check this
@@ -27,7 +27,7 @@ Go to the root of your application and do this:
 import * as React from "react"
 
 // 1. import `ChakraProvider` component
-import { ChakraProvider } from "@chakra-ui/core"
+import { ChakraProvider } from "@hackr/chakra-ui-core"
 
 function App() {
   // 2. Use at the root of your app
@@ -40,21 +40,21 @@ function App() {
 ```
 
 > - For Next.js, you need to set this up in `pages/_app.js` or `pages/_app.tsx`
-> - For Gatsby, install the `gatsby-plugin-chakra-ui`. It does it automatically
+> - For Gatsby, install the `@hackr/gatsby-plugin-chakra-ui`. It does it automatically
 >   for you.
 > - For Create React App, you need to set this up in `index.js` or `index.tsx`
 
 ## Add custom theme (Optional)
 
 If you need to customize the default chakra theme to match your design
-requirements, you can extend the `theme` from `@chakra-ui/core`.
+requirements, you can extend the `theme` from `@hackr/chakra-ui-core`.
 
 Chakra UI provides an `extendTheme` function that deep merges the default theme
 with your customizations.
 
 ```jsx live=false
 // 1. Import the extendTheme function
-import { extendTheme } from "@chakra-ui/core"
+import { extendTheme } from "@hackr/chakra-ui-core"
 
 // 2. Extend the theme to include custom colors, fonts, etc
 const colors = {
@@ -82,7 +82,7 @@ function App() {
 | Name             | Type             | Default               | Description                                         |
 | ---------------- | ---------------- | --------------------- | --------------------------------------------------- |
 | resetCSS         | `boolean`        | `true`                | automatically includes `<CSSReset />`               |
-| theme            | `Theme`          | `@chakra-ui/theme`    | optional custom theme                               |
+| theme            | `Theme`          | `@hackr/chakra-ui-theme`    | optional custom theme                               |
 | colorModeManager | `StorageManager` | `localStorageManager` | manager to persist a users color mode preference in |
 | portalZIndex     | `number`         | `undefined`           | common z-index to use for `Portal`                  |
 
@@ -90,10 +90,10 @@ That's it, you're good to go!
 
 ## Optional Packages
 
-- Icons: If you want to use the icons from Chakra UI, install `@chakra-ui/icons`
+- Icons: If you want to use the icons from Chakra UI, install `@hackr/chakra-ui-icons`
 - Theme Tools: If you intend to customize components or build your own design
   system, this package includes useful utilities. Install
-  `@chakra-ui/theme-tools`.
+  `@hackr/chakra-ui-theme-tools`.
 
 ## Notes on TypeScript 🚨
 

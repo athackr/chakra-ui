@@ -1,6 +1,6 @@
 {
-  "name": "@chakra-ui/cra-template",
-  "version": "1.0.0-rc.8",
+  "name": "@hackr/chakra-ui-cra-template",
+  "version": "1.0.0-rc.10",
   "main": "template.json",
   "keywords": [
     "chakra",
@@ -29,5 +29,6 @@
   ],
   "scripts": {
     "lint": "eslint template/src"
-  }
+  },
+  "gitHead": "3a3062b2f2c55eaf11604535373545c0303060ad"
 }

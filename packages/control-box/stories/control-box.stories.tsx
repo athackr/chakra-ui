@@ -1,8 +1,8 @@
 import * as React from "react"
-import VisuallyHidden from "@chakra-ui/visually-hidden"
+import VisuallyHidden from "@hackr/chakra-ui-visually-hidden"
 import { ControlBox } from "../src"
-import { chakra } from "@chakra-ui/system"
-import { CheckIcon } from "@chakra-ui/icons"
+import { chakra } from "@hackr/chakra-ui-system"
+import { CheckIcon } from "@hackr/chakra-ui-icons"
 
 export default {
   title: "Control Box",

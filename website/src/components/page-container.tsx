@@ -1,5 +1,5 @@
-import { Box, chakra, Flex } from "@chakra-ui/core"
-import { SkipNavContent, SkipNavLink } from "@chakra-ui/skip-nav"
+import { Box, chakra, Flex } from "@hackr/chakra-ui-core"
+import { SkipNavContent, SkipNavLink } from "@hackr/chakra-ui-skip-nav"
 import Container from "components/container"
 import EditPageLink from "components/edit-page-button"
 import Footer from "components/footer"

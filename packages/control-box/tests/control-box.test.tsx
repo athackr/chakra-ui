@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { testA11y, render } from "@chakra-ui/test-utils"
+import { testA11y, render } from "@hackr/chakra-ui-test-utils"
 import ControlBox from "../src/control-box"
 
 it("matches snapshot", () => {

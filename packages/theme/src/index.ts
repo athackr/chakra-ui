@@ -1,4 +1,4 @@
-import { ColorModeOptions } from "@chakra-ui/system"
+import { ColorModeOptions } from "@hackr/chakra-ui-system"
 import components from "./components"
 import foundations from "./foundations"
 import styles from "./styles"

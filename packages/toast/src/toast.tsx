@@ -1,5 +1,5 @@
-import { useTimeout, useUpdateEffect } from "@chakra-ui/hooks"
-import { isFunction, __DEV__ } from "@chakra-ui/utils"
+import { useTimeout, useUpdateEffect } from "@hackr/chakra-ui-hooks"
+import { isFunction, __DEV__ } from "@hackr/chakra-ui-utils"
 import ReachAlert from "@reach/alert"
 import { motion, useIsPresent, Variants } from "framer-motion"
 import * as React from "react"

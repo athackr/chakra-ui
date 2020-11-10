@@ -1,5 +1,5 @@
-import { Link, SimpleGrid, Text } from "@chakra-ui/core"
-import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons"
+import { Link, SimpleGrid, Text } from "@hackr/chakra-ui-core"
+import { ChevronLeftIcon, ChevronRightIcon } from "@hackr/chakra-ui-icons"
 import NextLink from "next/link"
 import React from "react"
 

@@ -2,14 +2,14 @@ import {
   useBoolean,
   useControllableProp,
   useSafeLayoutEffect,
-} from "@chakra-ui/hooks"
+} from "@hackr/chakra-ui-hooks"
 import {
   callAllHandlers,
   dataAttr,
   mergeRefs,
   PropGetter,
-} from "@chakra-ui/utils"
-import { visuallyHiddenStyle } from "@chakra-ui/visually-hidden"
+} from "@hackr/chakra-ui-utils"
+import { visuallyHiddenStyle } from "@hackr/chakra-ui-visually-hidden"
 import React, {
   ChangeEvent,
   KeyboardEvent,

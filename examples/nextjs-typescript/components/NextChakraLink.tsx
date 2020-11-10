@@ -4,7 +4,7 @@ import { LinkProps as NextLinkProps } from "next/dist/client/link"
 import {
   Link as ChakraLink,
   LinkProps as ChakraLinkProps,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 
 export type NextChakraLinkProps = PropsWithChildren<
   NextLinkProps & Omit<ChakraLinkProps, "as">

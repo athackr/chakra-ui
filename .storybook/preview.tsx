@@ -4,7 +4,7 @@ import {
   useColorModeValue,
   Flex,
   IconButton,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 import { FaMoon, FaSun } from "react-icons/fa"
 import * as React from "react"
 import { withPerformance } from "storybook-addon-performance"

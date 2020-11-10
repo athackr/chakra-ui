@@ -8,8 +8,8 @@ import {
   useMultiStyleConfig,
   useStyles,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx, omit, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { cx, omit, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import {
   TabsProvider,

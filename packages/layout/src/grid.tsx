@@ -4,8 +4,8 @@ import {
   ResponsiveValue,
   SystemProps,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { filterUndefined, mapResponsive, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { filterUndefined, mapResponsive, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { BoxProps } from "./box"
 

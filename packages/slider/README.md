@@ -1,4 +1,4 @@
-# @chakra-ui/slider
+# @hackr/chakra-ui-slider
 
 The Slider is used to allow users to make selections from a range of values.
 
@@ -9,11 +9,11 @@ or applying image filters.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/slider
+yarn add @hackr/chakra-ui-slider
 
 # or
 
-npm i @chakra-ui/slider
+npm i @hackr/chakra-ui-slider
 ```
 
 ## Import components
@@ -24,7 +24,7 @@ import {
   SliderTrack,
   SliderFilledTrack,
   SliderThumb,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 ```
 
 ## Usage

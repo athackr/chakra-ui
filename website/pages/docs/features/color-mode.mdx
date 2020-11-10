@@ -1,6 +1,6 @@
 ---
 title: "Color Mode"
-package: "@chakra-ui/color-mode"
+package: "@hackr/chakra-ui-color-mode"
 description: Working with color mode (light and dark mode) in Chakra UI
 ---
 
@@ -116,7 +116,7 @@ To support this, extend the default theme with a `config` key matching
 
 ```jsx live=false
 // 1. import `ChakraProvider` component and `extendTheme`
-import { extendTheme, ChakraProvider } from "@chakra-ui/core"
+import { extendTheme, ChakraProvider } from "@hackr/chakra-ui-core"
 
 // 2. declare your configuration, these are the defaults
 const config = {
@@ -165,7 +165,7 @@ ReactDOM.render(
 
 ```jsx live=false
 // adjust your pages/_document.js
-import { ColorModeScript } from "@chakra-ui/core"
+import { ColorModeScript } from "@hackr/chakra-ui-core"
 
 export default class Document extends NextDocument {
   static getInitialProps(ctx) {
@@ -193,7 +193,7 @@ export default class Document extends NextDocument {
 ```jsx live=false
 // gatsby-ssr.js
 import React from 'react'
-import { ColorModeScript } from "@chakra-ui/core"
+import { ColorModeScript } from "@hackr/chakra-ui-core"
 
 export const onRenderBody = ({ setPreBodyComponents }) => {
   setPreBodyComponents([
@@ -226,7 +226,7 @@ import {
   ChakraProvider,
   cookieStorageManager,
   localStorageManager,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 
 export function Chakra({ cookies, children }) {
   // b) Pass `colorModeManager` prop
@@ -281,7 +281,7 @@ import {
   ChakraProvider,
   cookieStorageManager,
   localStorageManager,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 
 export default function App({ cookies }) {
   // 2. Pass `colorModeManager` prop - it finds the relevant cookie on its own

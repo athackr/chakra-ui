@@ -1,12 +1,12 @@
-import { useColorMode } from "@chakra-ui/color-mode"
-import { css, SystemStyleObject } from "@chakra-ui/styled-system"
+import { useColorMode } from "@hackr/chakra-ui-color-mode"
+import { css, SystemStyleObject } from "@hackr/chakra-ui-styled-system"
 import {
   createContext,
   Dict,
   memoizedGet as get,
   mergeWith,
   runIfFn,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import { Global, Interpolation, ThemeContext } from "@emotion/core"
 import * as React from "react"
 

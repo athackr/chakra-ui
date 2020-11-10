@@ -5,9 +5,9 @@ import {
   useFocusOnShow,
   useIds,
   useOutsideClick,
-} from "@chakra-ui/hooks"
-import { Placement, usePopper, UsePopperProps } from "@chakra-ui/popper"
-import { useColorModeValue, useToken } from "@chakra-ui/system"
+} from "@hackr/chakra-ui-hooks"
+import { Placement, usePopper, UsePopperProps } from "@hackr/chakra-ui-popper"
+import { useColorModeValue, useToken } from "@hackr/chakra-ui-system"
 import {
   callAllHandlers,
   FocusableElement,
@@ -15,7 +15,7 @@ import {
   mergeRefs,
   mergeWith,
   PropGetter,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import { RefObject, useCallback, useEffect, useRef } from "react"
 
 const TRIGGER = {

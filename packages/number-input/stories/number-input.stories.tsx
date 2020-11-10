@@ -1,7 +1,7 @@
-import { Button } from "@chakra-ui/button"
-import { Input } from "@chakra-ui/input"
-import { Stack } from "@chakra-ui/layout"
-import { chakra } from "@chakra-ui/system"
+import { Button } from "@hackr/chakra-ui-button"
+import { Input } from "@hackr/chakra-ui-input"
+import { Stack } from "@hackr/chakra-ui-layout"
+import { chakra } from "@hackr/chakra-ui-system"
 import * as React from "react"
 import Lorem from "react-lorem-component"
 import {

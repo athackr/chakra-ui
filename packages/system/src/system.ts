@@ -5,14 +5,14 @@ import {
   SystemProps,
   SystemStyleObject,
   ChakraStyleProps,
-} from "@chakra-ui/styled-system"
+} from "@hackr/chakra-ui-styled-system"
 import {
   memoizedGet as get,
   objectFilter,
   objectAssign,
   Dict,
   isFunction,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import createStyled, {
   CSSObject,
   FunctionInterpolation,

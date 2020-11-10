@@ -1,4 +1,4 @@
-import { ColorModeScript } from "@chakra-ui/core"
+import { ColorModeScript } from "@hackr/chakra-ui-core"
 import NextDocument, {
   Html,
   Head,

@@ -1,6 +1,6 @@
 {
-  "name": "@chakra-ui/cra-template-typescript",
-  "version": "1.0.0-rc.8",
+  "name": "@hackr/chakra-ui-cra-template-typescript",
+  "version": "1.0.0-rc.10",
   "main": "template.json",
   "keywords": [
     "chakra",
@@ -32,5 +32,6 @@
     "lint": "concurrently yarn:lint:*",
     "lint:src": "eslint template/src --ext .ts,.tsx --config ../../.eslintrc",
     "lint:types": "tsc --noEmit"
-  }
+  },
+  "gitHead": "3a3062b2f2c55eaf11604535373545c0303060ad"
 }

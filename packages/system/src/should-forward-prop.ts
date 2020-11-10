@@ -1,4 +1,4 @@
-import { propNames } from "@chakra-ui/styled-system"
+import { propNames } from "@hackr/chakra-ui-styled-system"
 
 /**
  * List of props for emotion to omit from DOM.

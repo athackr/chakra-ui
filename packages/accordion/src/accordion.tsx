@@ -1,4 +1,4 @@
-import { Icon, IconProps } from "@chakra-ui/icon"
+import { Icon, IconProps } from "@hackr/chakra-ui-icon"
 import {
   chakra,
   forwardRef,
@@ -9,8 +9,8 @@ import {
   useMultiStyleConfig,
   useStyles,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { Collapse } from "@chakra-ui/transition"
+} from "@hackr/chakra-ui-system"
+import { Collapse } from "@hackr/chakra-ui-transition"
 import {
   createContext,
   cx,
@@ -18,7 +18,7 @@ import {
   MaybeRenderProp,
   runIfFn,
   __DEV__,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import {
   AccordionProvider,

@@ -7,8 +7,8 @@ import {
   useMultiStyleConfig,
   useStyles,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { createContext, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { createContext, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { TriangleDownIcon, TriangleUpIcon } from "./icons"
 import {

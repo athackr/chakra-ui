@@ -1,6 +1,6 @@
-import { CloseButton, CloseButtonProps } from "@chakra-ui/close-button"
-import { FocusLock } from "@chakra-ui/focus-lock"
-import { Portal, PortalProps } from "@chakra-ui/portal"
+import { CloseButton, CloseButtonProps } from "@hackr/chakra-ui-close-button"
+import { FocusLock } from "@hackr/chakra-ui-focus-lock"
+import { Portal, PortalProps } from "@hackr/chakra-ui-portal"
 import {
   chakra,
   ChakraProps,
@@ -11,15 +11,15 @@ import {
   useMultiStyleConfig,
   useStyles,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { fadeConfig } from "@chakra-ui/transition"
+} from "@hackr/chakra-ui-system"
+import { fadeConfig } from "@hackr/chakra-ui-transition"
 import {
   callAllHandlers,
   createContext,
   cx,
   FocusableElement,
   __DEV__,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import {
   AnimatePresence,
   HTMLMotionProps,

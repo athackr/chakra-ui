@@ -5,8 +5,8 @@ import {
   testA11y,
   press,
   waitFor,
-} from "@chakra-ui/test-utils"
-import { PortalManager } from "@chakra-ui/portal"
+} from "@hackr/chakra-ui-test-utils"
+import { PortalManager } from "@hackr/chakra-ui-portal"
 import {
   Modal,
   ModalBody,

@@ -6,9 +6,9 @@ user action
 ## Installation
 
 ```sh
-npm i @chakra-ui/alert
+npm i @hackr/chakra-ui-alert
 
 # or
 
-yarn add @chakra-ui/alert
+yarn add @hackr/chakra-ui-alert
 ```

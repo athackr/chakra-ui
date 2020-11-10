@@ -8,8 +8,8 @@ import {
   useMultiStyleConfig,
   useStyles,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { createContext, cx, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { createContext, cx, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { useSlider, UseSliderProps, UseSliderReturn } from "./use-slider"
 

@@ -302,7 +302,7 @@
     transition section for modal and alert dialog
     ([@jmiazga](https://github.com/jmiazga))
   - [#1689](https://github.com/chakra-ui/chakra-ui/pull/1689) docs: called out
-    that default chakra icons need to be imported from @chakra-ui/icons
+    that default chakra icons need to be imported from @hackr/chakra-ui-icons
     ([@jmiazga](https://github.com/jmiazga))
   - [#1677](https://github.com/chakra-ui/chakra-ui/pull/1677) docs: Update
     modal.mdx ([@trevorblades](https://github.com/trevorblades))
@@ -519,7 +519,7 @@
     transition section for modal and alert dialog
     ([@jmiazga](https://github.com/jmiazga))
   - [#1689](https://github.com/chakra-ui/chakra-ui/pull/1689) docs: called out
-    that default chakra icons need to be imported from @chakra-ui/icons
+    that default chakra icons need to be imported from @hackr/chakra-ui-icons
     ([@jmiazga](https://github.com/jmiazga))
   - [#1677](https://github.com/chakra-ui/chakra-ui/pull/1677) docs: Update
     modal.mdx ([@trevorblades](https://github.com/trevorblades))

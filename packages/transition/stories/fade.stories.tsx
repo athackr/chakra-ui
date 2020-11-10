@@ -1,4 +1,4 @@
-import { useBoolean } from "@chakra-ui/hooks"
+import { useBoolean } from "@hackr/chakra-ui-hooks"
 import * as React from "react"
 import { Fade } from "../src/fade"
 

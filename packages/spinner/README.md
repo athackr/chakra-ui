@@ -1,4 +1,4 @@
-# @chakra-ui/spinner
+# @hackr/chakra-ui-spinner
 
 Spinners provide a visual cue that an action is processing, awaiting a course of
 change or a result.
@@ -6,17 +6,17 @@ change or a result.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/spinner
+yarn add @hackr/chakra-ui-spinner
 
 # or
 
-npm i @chakra-ui/spinner
+npm i @hackr/chakra-ui-spinner
 ```
 
 ## Import component
 
 ```jsx
-import { Spinner } from "@chakra-ui/spinner"
+import { Spinner } from "@hackr/chakra-ui-spinner"
 ```
 
 ## Usage

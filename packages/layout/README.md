@@ -1,4 +1,4 @@
-# @chakra-ui/layout
+# @hackr/chakra-ui-layout
 
 A set of layout primitives that make it super easy to manage page and
 components.
@@ -6,17 +6,24 @@ components.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/layout
+yarn add @hackr/chakra-ui-layout
 
 # or
 
-npm i @chakra-ui/layout
+npm i @hackr/chakra-ui-layout
 ```
 
 ## Import Components
 
 ```jsx
-import { Box, Flex, Stack, Grid, Wrap, AspectRatio } from "@chakra-ui/layout"
+import {
+  Box,
+  Flex,
+  Stack,
+  Grid,
+  Wrap,
+  AspectRatio,
+} from "@hackr/chakra-ui-layout"
 ```
 
 ## Usage

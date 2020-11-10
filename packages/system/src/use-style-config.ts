@@ -1,11 +1,11 @@
-import { SystemStyleObject } from "@chakra-ui/styled-system"
+import { SystemStyleObject } from "@hackr/chakra-ui-styled-system"
 import {
   filterUndefined,
   memoizedGet as get,
   mergeWith,
   runIfFn,
   omit,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import { useMemo, useRef } from "react"
 import isEqual from "react-fast-compare"
 import { useChakra } from "./hooks"

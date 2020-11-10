@@ -1,4 +1,4 @@
-import { Dict, Omit } from "@chakra-ui/utils"
+import { Dict, Omit } from "@hackr/chakra-ui-utils"
 import {
   PropertiesFallback,
   Property,

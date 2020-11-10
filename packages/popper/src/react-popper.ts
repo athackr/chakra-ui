@@ -1,5 +1,5 @@
-import { useSafeLayoutEffect } from "@chakra-ui/hooks"
-import { fromEntries } from "@chakra-ui/utils"
+import { useSafeLayoutEffect } from "@hackr/chakra-ui-hooks"
+import { fromEntries } from "@hackr/chakra-ui-utils"
 import {
   createPopper as defaultCreatePopper,
   Instance,

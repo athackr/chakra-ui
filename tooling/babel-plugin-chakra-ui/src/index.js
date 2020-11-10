@@ -3,8 +3,8 @@ import annotateAsPure from "@babel/helper-annotate-as-pure"
 import { types } from "@babel/core"
 
 const PURE_CALLS = new Map([
-  ["@chakra-ui/system", ["forwardRef", "memo"]],
-  ["@chakra-ui/core", ["forwardRef", "memo"]],
+  ["@hackr/chakra-ui-system", ["forwardRef", "memo"]],
+  ["@hackr/chakra-ui-core", ["forwardRef", "memo"]],
 ])
 
 export default declare((api) => {

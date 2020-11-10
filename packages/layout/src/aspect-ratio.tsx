@@ -3,8 +3,8 @@ import {
   forwardRef,
   ResponsiveValue,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx, mapResponsive, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { cx, mapResponsive, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 interface AspectRatioOptions {

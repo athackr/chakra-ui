@@ -1,6 +1,6 @@
 import React from "react"
-import { Grid, Flex, Text } from "@chakra-ui/core"
-import * as icons from "@chakra-ui/icons"
+import { Grid, Flex, Text } from "@hackr/chakra-ui-core"
+import * as icons from "@hackr/chakra-ui-icons"
 
 const iconList = {
   AddIcon: icons.AddIcon,

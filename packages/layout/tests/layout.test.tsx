@@ -1,4 +1,4 @@
-import { render, testA11y } from "@chakra-ui/test-utils"
+import { render, testA11y } from "@hackr/chakra-ui-test-utils"
 import * as React from "react"
 import { Box, Badge, Flex } from "../src"
 

@@ -9,7 +9,7 @@ import {
   IconButtonProps,
   useColorModeValue,
   useUpdateEffect,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 import { AnimatePresence, motion, useElementScroll } from "framer-motion"
 import useRouteChanged from "hooks/use-route-changed"
 import { getRoutes } from "layouts/mdx"

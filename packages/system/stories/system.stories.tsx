@@ -1,5 +1,5 @@
 /**@jsx jsx */
-import theme from "@chakra-ui/theme"
+import theme from "@hackr/chakra-ui-theme"
 import { motion } from "framer-motion"
 import {
   chakra,

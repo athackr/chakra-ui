@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as ComponentProps from "@chakra-ui/props-docs"
+import * as ComponentProps from "@hackr/chakra-ui-props-docs"
 import MDXComponents from "./mdx-components"
 
 export type PropsTableProps = {

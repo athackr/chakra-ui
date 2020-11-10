@@ -6,8 +6,13 @@ import {
   PropsOf,
   ResponsiveValue,
   SystemProps,
-} from "@chakra-ui/system"
-import { cx, getValidChildren, mapResponsive, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import {
+  cx,
+  getValidChildren,
+  mapResponsive,
+  __DEV__,
+} from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 export type StackDirection = ResponsiveValue<

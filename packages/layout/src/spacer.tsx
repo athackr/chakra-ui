@@ -1,5 +1,5 @@
-import { chakra, HTMLChakraProps } from "@chakra-ui/system"
-import { __DEV__ } from "@chakra-ui/utils"
+import { chakra, HTMLChakraProps } from "@hackr/chakra-ui-system"
+import { __DEV__ } from "@hackr/chakra-ui-utils"
 
 export interface SpacerProps extends HTMLChakraProps<"div"> {}
 

@@ -1,4 +1,4 @@
-import { mode } from "@chakra-ui/theme-tools"
+import { mode } from "@hackr/chakra-ui-theme-tools"
 
 const parts = ["control", "label", "description", "icon"]
 

@@ -8,7 +8,7 @@ import {
   mergeWith,
   objectToArrayNotation,
   runIfFn,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import { CSSObject, StyleObjectOrFn } from "./css.types"
 import { parser } from "./parser"
 import { pseudoSelectors } from "./pseudo"

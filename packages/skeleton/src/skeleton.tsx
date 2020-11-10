@@ -1,4 +1,4 @@
-import { useBreakpointValue } from "@chakra-ui/media-query"
+import { useBreakpointValue } from "@hackr/chakra-ui-media-query"
 import {
   chakra,
   forwardRef,
@@ -7,8 +7,8 @@ import {
   ThemingProps,
   useStyleConfig,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { cx, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 export interface SkeletonOptions {

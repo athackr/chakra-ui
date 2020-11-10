@@ -1,4 +1,4 @@
-# @chakra-ui/number-input
+# @hackr/chakra-ui-number-input
 
 The NumberInput component is similar to the [Input](/input), but it has controls
 for incrementing or decrementing numeric values.
@@ -10,11 +10,11 @@ for the Spinbutton widget.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/number-input
+yarn add @hackr/chakra-ui-number-input
 
 # or
 
-npm i @chakra-ui/number-input
+npm i @hackr/chakra-ui-number-input
 ```
 
 ## Import components
@@ -26,7 +26,7 @@ import {
   NumberInputStepper,
   NumberIncrementStepper,
   NumberDecrementStepper,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 ```
 
 ## Usage

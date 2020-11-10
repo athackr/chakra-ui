@@ -1,7 +1,7 @@
 import React from "react"
-import * as Chakra from "@chakra-ui/core"
-import { chakra } from "@chakra-ui/core"
-import * as Icons from "@chakra-ui/icons"
+import * as Chakra from "@hackr/chakra-ui-core"
+import { chakra } from "@hackr/chakra-ui-core"
+import * as Icons from "@hackr/chakra-ui-icons"
 import * as Formik from "formik"
 import FocusLock from "react-focus-lock"
 import {

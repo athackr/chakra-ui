@@ -1,10 +1,10 @@
-import { useDescendant, useDescendants } from "@chakra-ui/descendant"
+import { useDescendant, useDescendants } from "@hackr/chakra-ui-descendant"
 import {
   useControllableState,
   useFocusEffect,
   useIds,
   useUnmountEffect,
-} from "@chakra-ui/hooks"
+} from "@hackr/chakra-ui-hooks"
 import {
   addItem,
   callAllHandlers,
@@ -19,7 +19,7 @@ import {
   PropGetter,
   removeItem,
   warn,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import { useCallback, useRef, useState } from "react"
 
 export type ExpandedIndex = number | number[]

@@ -1,6 +1,6 @@
 {
-  "name": "babel-plugin-chakra-ui",
-  "version": "1.0.0-rc.8",
+  "name": "@hackr/babel-plugin-chakra-ui",
+  "version": "1.0.0-rc.10",
   "description": "Mark custom forwardRef and memo as pure for tree shaking",
   "license": "MIT",
   "publishConfig": {
@@ -37,5 +37,6 @@
       "src/**/*.js",
       "!src/log.js"
     ]
-  }
+  },
+  "gitHead": "3a3062b2f2c55eaf11604535373545c0303060ad"
 }

@@ -1,4 +1,4 @@
-import { createBreakpoints } from "@chakra-ui/theme-tools"
+import { createBreakpoints } from "@hackr/chakra-ui-theme-tools"
 
 export const breakpoints = createBreakpoints({
   base: "0px",

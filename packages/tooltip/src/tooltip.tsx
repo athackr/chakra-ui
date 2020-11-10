@@ -1,4 +1,4 @@
-import { Portal } from "@chakra-ui/portal"
+import { Portal } from "@hackr/chakra-ui-portal"
 import {
   chakra,
   forwardRef,
@@ -6,9 +6,9 @@ import {
   omitThemingProps,
   ThemingProps,
   useStyleConfig,
-} from "@chakra-ui/system"
-import { isString, omit, pick, __DEV__ } from "@chakra-ui/utils"
-import { VisuallyHidden } from "@chakra-ui/visually-hidden"
+} from "@hackr/chakra-ui-system"
+import { isString, omit, pick, __DEV__ } from "@hackr/chakra-ui-utils"
+import { VisuallyHidden } from "@hackr/chakra-ui-visually-hidden"
 import { AnimatePresence, motion, Variants } from "framer-motion"
 import * as React from "react"
 import { useTooltip, UseTooltipProps } from "./use-tooltip"

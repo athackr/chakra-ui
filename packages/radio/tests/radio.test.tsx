@@ -1,5 +1,5 @@
 import * as React from "react"
-import { render, fireEvent } from "@chakra-ui/test-utils"
+import { render, fireEvent } from "@hackr/chakra-ui-test-utils"
 import { useRadio, UseRadioProps } from "../src"
 
 test("has proper aria and data attributes", async () => {

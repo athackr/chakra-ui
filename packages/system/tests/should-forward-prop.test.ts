@@ -1,4 +1,4 @@
-import { propNames } from "@chakra-ui/styled-system"
+import { propNames } from "@hackr/chakra-ui-styled-system"
 import { shouldForwardProp } from "../src/should-forward-prop"
 
 describe("does not forward styled-system props", () => {

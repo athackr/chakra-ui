@@ -8,7 +8,7 @@ import {
   Code,
   Grid,
   theme,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
 

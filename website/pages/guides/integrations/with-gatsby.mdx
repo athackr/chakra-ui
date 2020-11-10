@@ -11,7 +11,7 @@ API usage seen in the rest of the docs is the same!
 
 **There are two ways to setup Chakra with Gatsby shown in this Guide:**
 
-- [`gatsby-plugin-chakra-ui`](#gatsby-plugin)
+- [`@hackr/gatsby-plugin-chakra-ui`](#gatsby-plugin)
 - [From scratch](#chakra-providers)
 
 ## Gatsby plugin
@@ -20,14 +20,14 @@ Gastby plugins make external APIs plug-and-play into your website. Installing
 can be done with the following command:
 
 ```bash
-npm i gatsby-plugin-chakra-ui @chakra-ui/core
+npm i @hackr/gatsby-plugin-chakra-ui @hackr/chakra-ui-core
 
 # or
 
-yarn add gatsby-plugin-chakra-ui @chakra-ui/core
+yarn add @hackr/gatsby-plugin-chakra-ui @hackr/chakra-ui-core
 ```
 
-After installation, you'll need to add `gatsby-plugin-chakra-ui` to the
+After installation, you'll need to add `@hackr/gatsby-plugin-chakra-ui` to the
 `gatsby-config.js` file.
 
 ```jsx live=false
@@ -36,7 +36,7 @@ After installation, you'll need to add `gatsby-plugin-chakra-ui` to the
 module.exports = {
   plugins: [
     {
-      resolve: "gatsby-plugin-chakra-ui",
+      resolve: "@hackr/gatsby-plugin-chakra-ui",
       options: {
         /**
          * @property {boolean} [isResettingCSS=true]
@@ -58,7 +58,7 @@ To use custom theme, you can shadow this plugin’s theme.js directory and file
 with your own theme:
 
 ```jsx live=false
-// src/gatsby-plugin-chakra-ui/theme.js
+// src/@hackr/gatsby-plugin-chakra-ui/theme.js
 const theme = {}
 
 export default theme
@@ -77,7 +77,7 @@ two files should look like this:
 
 ```js live=false
 import React from "react"
-import { ChakraProvider, CSSReset } from "@chakra-ui/core"
+import { ChakraProvider, CSSReset } from "@hackr/chakra-ui-core"
 import customTheme from "./theme/theme"
 
 export const wrapRootElement = ({ element }) => {
@@ -102,7 +102,7 @@ below.
 
 ```jsx live=false
 import React from "react"
-import { ChakraProvider, CSSReset } from "@chakra-ui/core"
+import { ChakraProvider, CSSReset } from "@hackr/chakra-ui-core"
 import customTheme from "./theme/theme"
 
 export const wrapRootElement = ({ element }) => {

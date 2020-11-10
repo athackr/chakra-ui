@@ -1,5 +1,5 @@
 {
-  "packages": ["packages/*", "website", "tooling/*"],
+  "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
@@ -9,7 +9,7 @@
       "conventionalCommits": true,
       "message": "chore(release): publish",
       "ignoreChanges": ["**/stories/**", "**/tests/**"],
-      "allowBranch": "master"
+      "allowBranch": "develop"
     }
   }
 }

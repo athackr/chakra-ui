@@ -1,5 +1,5 @@
 import { css } from "../src/css"
-import { createBreakpoints } from "@chakra-ui/theme-tools"
+import { createBreakpoints } from "@hackr/chakra-ui-theme-tools"
 
 const breakpoints = createBreakpoints({
   sm: "40em",

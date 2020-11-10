@@ -1,4 +1,4 @@
-import { BoxProps, chakra, useColorModeValue } from "@chakra-ui/core"
+import { BoxProps, chakra, useColorModeValue } from "@hackr/chakra-ui-core"
 import { ReactNode, RefObject, useEffect, useRef, useState } from "react"
 
 interface SidebarCategoryProps extends BoxProps {

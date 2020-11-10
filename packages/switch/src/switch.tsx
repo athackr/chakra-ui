@@ -1,4 +1,4 @@
-import { useCheckbox, UseCheckboxProps } from "@chakra-ui/checkbox"
+import { useCheckbox, UseCheckboxProps } from "@hackr/chakra-ui-checkbox"
 import {
   chakra,
   forwardRef,
@@ -7,8 +7,8 @@ import {
   ThemingProps,
   useMultiStyleConfig,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx, dataAttr, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { cx, dataAttr, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 type Omitted = "defaultChecked" | "checked" | "onChange"

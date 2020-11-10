@@ -1,12 +1,12 @@
-import type { ImageProps } from "@chakra-ui/image"
-import { useImage } from "@chakra-ui/image"
+import type { ImageProps } from "@hackr/chakra-ui-image"
+import { useImage } from "@hackr/chakra-ui-image"
 import type {
   ChakraComponent,
   SystemProps,
   SystemStyleObject,
   ThemingProps,
   HTMLChakraProps,
-} from "@chakra-ui/system"
+} from "@hackr/chakra-ui-system"
 import {
   chakra,
   forwardRef,
@@ -14,8 +14,8 @@ import {
   StylesProvider,
   useMultiStyleConfig,
   useStyles,
-} from "@chakra-ui/system"
-import { cx, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { cx, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 interface AvatarOptions {

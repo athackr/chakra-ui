@@ -60,7 +60,7 @@ transitions within components.
 
 ```diff
 "dependencies": {
-  "@chakra-ui/core": "latest",
+  "@hackr/chakra-ui-core": "latest",
   "framer-motion": "latest",
 -  "@emotion/core": "10.x",
 -  "@emotion/styled": "10.X",
@@ -73,7 +73,7 @@ transitions within components.
 
 #### Notes on Icons
 
-Chakra moved all icons to a separate package `@chakra-ui/icons`. We recommend
+Chakra moved all icons to a separate package `@hackr/chakra-ui-icons`. We recommend
 using `react-icons` in your projects considering it has a robust set of icons.
 However, you can still install this package.
 
@@ -169,8 +169,8 @@ To provide easier extensibility and typesafety, breakpoints should now be
 created through `createBreakpoints` by passing an object:
 
 ```diff
-+ import { extendTheme } from "@chakra-ui/core"
-+ import { createBreakpoints } from "@chakra-ui/theme-tools"
++ import { extendTheme } from "@hackr/chakra-ui-core"
++ import { createBreakpoints } from "@hackr/chakra-ui-theme-tools"
 
 
 + const breakpoints = createBreakpoints({
@@ -223,8 +223,8 @@ and accessibility.
   remove the notion that it is a header when it is actually a button.
 
 ```diff
-- import { AccordionHeader } from "@chakra-ui/core"
-+ import { AccordionButton } from "@chakra-ui/core"
+- import { AccordionHeader } from "@hackr/chakra-ui-core"
++ import { AccordionButton } from "@hackr/chakra-ui-core"
 ```
 
 > WAI-ARIA guidelines require that accordion buttons be wrapped in the
@@ -252,8 +252,8 @@ out of the box when we don't. Here's how to handle this:
 - Change all imports of `AspectRatioBox` to `AspectRatio`.
 
 ```diff
-- import { AspectRatioBox } from "@chakra-ui/core"
-+ import  { AspectRatio } from "@chakra-ui/core"
+- import { AspectRatioBox } from "@hackr/chakra-ui-core"
++ import  { AspectRatio } from "@hackr/chakra-ui-core"
 ```
 
 ### Breadcrumb
@@ -270,7 +270,7 @@ Removed support for the `addSeparator` prop.
 > `<EmailIcon/>` from Chakra.
 
 ```diff
-import { PhoneIcon } from "@chakra-ui/icons"
+import { PhoneIcon } from "@hackr/chakra-ui-icons"
 
 - <Button leftIcon="phone">Call</Button>
 + <Button leftIcon={<PhoneIcon />}>Call</Button>
@@ -334,7 +334,7 @@ errors, and reduces unused icons bloating your app.**
 
 ```jsx live=false
 // pages/_document.js
-import { ColorModeScript } from "@chakra-ui/core"
+import { ColorModeScript } from "@hackr/chakra-ui-core"
 
 export default class Document extends NextDocument {
   static getInitialProps(ctx) {
@@ -367,7 +367,7 @@ export const onRenderBody = ({ setPreBodyComponents }) => {
 ```
 
 You can also install the
-[`gatsby-plugin-chakra-ui`](https://www.npmjs.com/package/gatsby-plugin-chakra-ui)
+[`@hackr/gatsby-plugin-chakra-ui`](https://www.npmjs.com/package/@hackr/gatsby-plugin-chakra-ui)
 package which automatically configures `ColorModeScript` along with
 `ChakraProvider`.
 
@@ -378,19 +378,19 @@ prop passed to `Editable` as well as the prop in its render props.
 
 ### Icons
 
-- Basic interface icons provided by Chakra have moved to the `@chakra-ui/icons`
+- Basic interface icons provided by Chakra have moved to the `@hackr/chakra-ui-icons`
   package. Replace all `<Icon name="..." />` elements imported from
-  `@chakra-ui/core` with equivalent React elements imported from
-  `@chakra-ui/icons`.
+  `@hackr/chakra-ui-core` with equivalent React elements imported from
+  `@hackr/chakra-ui-icons`.
 
   > Replacement logic: If `<Icon name="search" />` is used, then replace it with
   > `<SearchIcon />` from Chakra icons package.
 
 ```diff
-- import { Icon } from "@chakra-ui/core"
+- import { Icon } from "@hackr/chakra-ui-core"
 - <Icon name="search" />
 
-+ import { SearchIcon } from "@chakra-ui/icons"
++ import { SearchIcon } from "@hackr/chakra-ui-icons"
 + <SearchIcon />
 ```
 
@@ -400,7 +400,7 @@ Existing icons will appear as a question mark until refactored.
   `theme` create your own icons using the `createIcon` utility:
 
 ```jsx live=false
-import { createIcon } from "@chakra-ui/core"
+import { createIcon } from "@hackr/chakra-ui-core"
 
 export const UpDownIcon = createIcon({
   displayName: "UpDownIcon",
@@ -414,7 +414,7 @@ As a convenience you can also import `createIcon` from the `icons` package along
 with other icons:
 
 ```jsx live=false
-import { createIcon, MoonIcon, SunIcon } from "@chakra-ui/icons"
+import { createIcon, MoonIcon, SunIcon } from "@hackr/chakra-ui-icons"
 ```
 
 ### Icon Button
@@ -426,7 +426,7 @@ import { createIcon, MoonIcon, SunIcon } from "@chakra-ui/icons"
 > from Chakra.
 
 ```diff
-import { PhoneIcon } from "@chakra-ui/core"
+import { PhoneIcon } from "@hackr/chakra-ui-core"
 
 - <IconButton icon="phone">Call</IconButton>
 + <IconButton icon={<PhoneIcon />}>Call</IconButton>

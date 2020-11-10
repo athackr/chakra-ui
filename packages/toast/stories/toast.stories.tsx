@@ -1,7 +1,7 @@
 import * as React from "react"
-import { Button, ButtonGroup } from "@chakra-ui/button"
-import { chakra, useColorMode } from "@chakra-ui/system"
-import { Alert } from "@chakra-ui/alert"
+import { Button, ButtonGroup } from "@hackr/chakra-ui-button"
+import { chakra, useColorMode } from "@hackr/chakra-ui-system"
+import { Alert } from "@hackr/chakra-ui-alert"
 import { useToast } from "../src"
 
 export default {

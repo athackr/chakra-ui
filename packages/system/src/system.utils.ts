@@ -1,4 +1,9 @@
-import { isString, omit, UnionStringArray, __DEV__ } from "@chakra-ui/utils"
+import {
+  isString,
+  omit,
+  UnionStringArray,
+  __DEV__,
+} from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { ThemingProps } from "./system.types"
 

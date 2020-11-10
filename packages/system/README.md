@@ -1,15 +1,15 @@
-# @chakra-ui/system
+# @hackr/chakra-ui-system
 
 Styled API for creating atomic, theme-aware component styling.
 
 ## Installation
 
 ```sh
-yarn add @chakra-ui/system
+yarn add @hackr/chakra-ui-system
 
 # or
 
-npm i @chakra-ui/system
+npm i @hackr/chakra-ui-system
 ```
 
 ## Problem
@@ -113,7 +113,7 @@ const theme = {
 };
 
 // 2. create or import Button from chakra-ui
-import { Button } from "@chakra-ui/core"
+import { Button } from "@hackr/chakra-ui-core"
 
 // or your own button
 const Button = chakra("button", { themeKey: "Button" })

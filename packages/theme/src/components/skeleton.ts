@@ -1,5 +1,5 @@
-import { keyframes } from "@chakra-ui/system"
-import { getColor, mode } from "@chakra-ui/theme-tools"
+import { keyframes } from "@hackr/chakra-ui-system"
+import { getColor, mode } from "@hackr/chakra-ui-theme-tools"
 
 export function fade(startColor: string, endColor: string) {
   return keyframes({

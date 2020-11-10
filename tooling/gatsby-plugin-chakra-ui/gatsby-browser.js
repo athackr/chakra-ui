@@ -5,7 +5,7 @@ import {
   CSSReset,
   GlobalStyle,
   PortalManager,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 import theme from "./src/theme"
 
 export const wrapRootElement = (

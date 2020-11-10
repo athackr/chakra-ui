@@ -20,22 +20,23 @@ https://chakra-ui.com
 ## Installing Chakra UI
 
 ⚡️Chakra UI is made up of multiple components and tools which you can import
-one by one. All you need to do is install the `@chakra-ui/core` package:
+one by one. All you need to do is install the `@hackr/chakra-ui-core` package:
 
 ```sh
-$ yarn add @chakra-ui/core
+$ yarn add @hackr/chakra-ui-core
 # or
-$ npm install --save @chakra-ui/core
+$ npm install --save @hackr/chakra-ui-core
 ```
 
 # Getting set up
 
 To start using the components, please follow these steps:
 
-1. Wrap your application in a `ThemeProvider` provided by **@chakra-ui/core**
+1. Wrap your application in a `ThemeProvider` provided by
+   **@hackr/chakra-ui-core**
 
 ```jsx
-import { ThemeProvider, ColorModeProvider } from "@chakra-ui/core"
+import { ThemeProvider, ColorModeProvider } from "@hackr/chakra-ui-core"
 
 const App = ({ children }) => (
   <ThemeProvider>
@@ -51,7 +52,7 @@ mode.
 2. Now you can start using components like so!:
 
 ```jsx
-import { Button } from "@chakra-ui/core"
+import { Button } from "@hackr/chakra-ui-core"
 
 const App = () => <Button>I just consumed some ⚡️Chakra!</Button>
 ```

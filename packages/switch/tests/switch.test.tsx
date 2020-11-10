@@ -1,5 +1,5 @@
 import * as React from "react"
-import { userEvent, render } from "@chakra-ui/test-utils"
+import { userEvent, render } from "@hackr/chakra-ui-test-utils"
 import { Switch } from "../src"
 
 test("Switch renders correctly", () => {

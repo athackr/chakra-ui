@@ -1,12 +1,12 @@
 import { useState, useCallback, ChangeEvent } from "react"
-import { useControllableProp } from "@chakra-ui/hooks"
+import { useControllableProp } from "@hackr/chakra-ui-hooks"
 import {
   isInputEvent,
   addItem,
   removeItem,
   StringOrNumber,
   Dict,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 
 type EventOrValue = ChangeEvent<HTMLInputElement> | StringOrNumber
 

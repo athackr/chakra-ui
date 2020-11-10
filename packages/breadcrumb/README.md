@@ -1,4 +1,4 @@
-# @chakra-ui/breadcrumb
+# @hackr/chakra-ui-breadcrumb
 
 Breadcrumbs help users visualize their current location in relation to the rest
 of the website or application by showing the hierarchy of pages.
@@ -6,11 +6,11 @@ of the website or application by showing the hierarchy of pages.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/breadcrumb
+yarn add @hackr/chakra-ui-breadcrumb
 
 # or
 
-npm i @chakra-ui/breadcrumb
+npm i @hackr/chakra-ui-breadcrumb
 ```
 
 ## Import components
@@ -23,7 +23,11 @@ Chakra UI exports 3 breadcrumb related components:
 - `BreadcrumbLink`: The breadcrumb link.
 
 ```js
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "@chakra-ui/core"
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+} from "@hackr/chakra-ui-core"
 ```
 
 ## Usage

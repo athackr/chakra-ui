@@ -1,5 +1,5 @@
 import * as React from "react"
-import { getBox, BoxModel } from "@chakra-ui/utils"
+import { getBox, BoxModel } from "@hackr/chakra-ui-utils"
 import { useSafeLayoutEffect } from "./use-safe-layout-effect"
 
 /**

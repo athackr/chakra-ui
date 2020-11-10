@@ -1,13 +1,13 @@
-# @chakra-ui/control-box
+# @hackr/chakra-ui-control-box
 
 Control Box component for Chakra UI.
 
 ## Installation
 
 ```sh
-yarn add @chakra-ui/control-box
+yarn add @hackr/chakra-ui-control-box
 
 # or
 
-npm i @chakra-ui/control-box
+npm i @hackr/chakra-ui-control-box
 ```

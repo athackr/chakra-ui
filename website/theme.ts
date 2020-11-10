@@ -1,5 +1,5 @@
-import { extendTheme } from "@chakra-ui/core"
-import { mode } from "@chakra-ui/theme-tools"
+import { extendTheme } from "@hackr/chakra-ui-core"
+import { mode } from "@hackr/chakra-ui-theme-tools"
 
 const customTheme = extendTheme({
   styles: {

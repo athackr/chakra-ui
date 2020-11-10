@@ -5,7 +5,7 @@ import {
   Grid,
   GridProps,
   useTheme,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 import React from "react"
 
 type ColorPaletteProps = FlexProps & { color?: string; name?: string }

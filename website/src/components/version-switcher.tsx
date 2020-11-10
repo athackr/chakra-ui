@@ -1,4 +1,4 @@
-import { Select, SelectProps, useColorModeValue } from "@chakra-ui/core"
+import { Select, SelectProps, useColorModeValue } from "@hackr/chakra-ui-core"
 import React from "react"
 
 function VersionSwitcher(props: SelectProps) {

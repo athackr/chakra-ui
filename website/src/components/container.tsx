@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, BoxProps } from "@chakra-ui/core"
+import { Box, BoxProps } from "@hackr/chakra-ui-core"
 
 export const Container = (props: BoxProps) => (
   <Box

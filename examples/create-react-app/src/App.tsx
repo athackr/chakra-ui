@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, Text, Link, VStack, Code, Grid } from "@chakra-ui/core"
+import { Box, Text, Link, VStack, Code, Grid } from "@hackr/chakra-ui-core"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
 

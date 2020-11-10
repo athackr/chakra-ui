@@ -1,10 +1,10 @@
-import { useControllableProp, useId } from "@chakra-ui/hooks"
+import { useControllableProp, useId } from "@hackr/chakra-ui-hooks"
 import {
   isInputEvent,
   mergeRefs,
   PropGetter,
   StringOrNumber,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import {
   ChangeEvent,
   useCallback,

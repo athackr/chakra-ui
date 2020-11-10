@@ -1,4 +1,4 @@
-import { useDisclosure } from "@chakra-ui/hooks"
+import { useDisclosure } from "@hackr/chakra-ui-hooks"
 import React from "react"
 import {
   Drawer,

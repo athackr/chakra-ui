@@ -1,4 +1,10 @@
-import { Alert, Box, chakra, Kbd, useColorModeValue } from "@chakra-ui/core"
+import {
+  Alert,
+  Box,
+  chakra,
+  Kbd,
+  useColorModeValue,
+} from "@hackr/chakra-ui-core"
 import React from "react"
 import CarbonAd from "./carbon-ad"
 import CodeBlock from "./codeblock/codeblock"

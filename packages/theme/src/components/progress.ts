@@ -1,4 +1,4 @@
-import { generateStripe, getColor, mode } from "@chakra-ui/theme-tools"
+import { generateStripe, getColor, mode } from "@hackr/chakra-ui-theme-tools"
 
 type Dict = Record<string, any>
 

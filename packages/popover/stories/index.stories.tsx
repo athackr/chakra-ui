@@ -1,5 +1,5 @@
 import * as React from "react"
-import { chakra } from "@chakra-ui/system"
+import { chakra } from "@hackr/chakra-ui-system"
 
 export * from "./hover.stories"
 export * from "./popover.stories"

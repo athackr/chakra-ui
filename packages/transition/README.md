@@ -1,11 +1,11 @@
-# @chakra-ui/transition
+# @hackr/chakra-ui-transition
 
 ## Installation
 
 ```sh
-yarn add @chakra-ui/transition
+yarn add @hackr/chakra-ui-transition
 # or
-npm i @chakra-ui/transition
+npm i @hackr/chakra-ui-transition
 ```
 
 ## Collapse
@@ -17,7 +17,7 @@ immediately relevant to the user.
 ## Import component
 
 ```jsx
-import { Collapse } from "@chakra-ui/transition"
+import { Collapse } from "@hackr/chakra-ui-transition"
 ```
 
 ## Usage

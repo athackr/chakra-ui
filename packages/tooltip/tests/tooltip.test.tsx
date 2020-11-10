@@ -5,7 +5,7 @@ import {
   render,
   screen,
   waitForElementToBeRemoved,
-} from "@chakra-ui/test-utils"
+} from "@hackr/chakra-ui-test-utils"
 import * as React from "react"
 import { TooltipProps } from "../dist/types"
 import { Tooltip } from "../src"

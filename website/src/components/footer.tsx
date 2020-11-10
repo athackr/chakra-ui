@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, Icon, Text, Stack, Link, chakra } from "@chakra-ui/core"
+import { Box, Icon, Text, Stack, Link, chakra } from "@hackr/chakra-ui-core"
 import { IoLogoTwitter, IoLogoLinkedin } from "react-icons/io"
 import { MdEmail } from "react-icons/md"
 import { DiGithubBadge } from "react-icons/di"

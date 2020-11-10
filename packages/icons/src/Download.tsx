@@ -1,4 +1,4 @@
-import { createIcon } from "@chakra-ui/icon"
+import { createIcon } from "@hackr/chakra-ui-icon"
 
 export const DownloadIcon = createIcon({
   d:

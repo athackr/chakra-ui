@@ -1,4 +1,4 @@
-# @chakra-ui/modal
+# @hackr/chakra-ui-modal
 
 A modal is a window overlaid on either the primary window or another dialog
 window. Contents behind a modal dialog are **inert** meaning that users cannot
@@ -7,11 +7,11 @@ interact with content behind the dialog.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/modal
+yarn add @hackr/chakra-ui-modal
 
 # or
 
-npm i @chakra-ui/modal
+npm i @hackr/chakra-ui-modal
 ```
 
 ## Import components
@@ -25,7 +25,7 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 ```
 
 ## Usage
@@ -115,11 +115,11 @@ or action.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/alert-dialog
+yarn add @hackr/chakra-ui-alert-dialog
 
 # or
 
-npm i @chakra-ui/alert-dialog
+npm i @hackr/chakra-ui-alert-dialog
 ```
 
 ## Import components
@@ -132,7 +132,7 @@ import {
   AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 ```
 
 ## Basic usage

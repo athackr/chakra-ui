@@ -1,4 +1,7 @@
-import { FormControlOptions, useFormControl } from "@chakra-ui/form-control"
+import {
+  FormControlOptions,
+  useFormControl,
+} from "@hackr/chakra-ui-form-control"
 import {
   chakra,
   forwardRef,
@@ -6,8 +9,8 @@ import {
   ThemingProps,
   useMultiStyleConfig,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { cx, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { cx, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 interface InputOptions {

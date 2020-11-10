@@ -4,7 +4,7 @@ import {
   SystemStyleObject,
   useTheme,
   HTMLChakraProps,
-} from "@chakra-ui/system"
+} from "@hackr/chakra-ui-system"
 import {
   cx,
   Dict,
@@ -12,7 +12,7 @@ import {
   mapResponsive,
   memoizedGet as get,
   __DEV__,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 export interface ContainerProps extends HTMLChakraProps<"div"> {

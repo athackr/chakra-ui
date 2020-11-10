@@ -22,7 +22,7 @@ brand colors, here's what you'll do:
 
 ```jsx live=false
 // 1. Import `extendTheme`
-import { extendTheme } from "@chakra-ui/core"
+import { extendTheme } from "@hackr/chakra-ui-core"
 
 // 2. Call `extendTheme` and pass your custom values
 const theme = extendTheme({
@@ -86,7 +86,7 @@ For example, let's override the component styles for Chakra's Button component.
 
 ```jsx live=false
 // theme.js
-import { extendTheme } from "@chakra-ui/core"
+import { extendTheme } from "@hackr/chakra-ui-core"
 
 const theme = extendTheme({
   components: {
@@ -143,8 +143,8 @@ styles can be a style object or a function that returns a style object.
 
 ```jsx live=false
 // theme.js
-import { extendTheme } from "@chakra-ui/core"
-import { mode } from "@chakra-ui/theme-tools"
+import { extendTheme } from "@hackr/chakra-ui-core"
+import { mode } from "@hackr/chakra-ui-theme-tools"
 
 // Version 1: Using objects
 const theme = extendTheme({
@@ -203,7 +203,7 @@ like this:
 
 ```jsx live=false
 // theme.js
-import { extendTheme } from "@chakra-ui/core"
+import { extendTheme } from "@hackr/chakra-ui-core"
 
 // Global style overrides
 import styles from "./styles"

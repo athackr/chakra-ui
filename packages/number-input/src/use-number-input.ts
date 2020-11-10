@@ -1,5 +1,5 @@
-import { useCounter, UseCounterProps } from "@chakra-ui/counter"
-import { useBoolean, useEventListener } from "@chakra-ui/hooks"
+import { useCounter, UseCounterProps } from "@hackr/chakra-ui-counter"
+import { useBoolean, useEventListener } from "@hackr/chakra-ui-hooks"
 import {
   ariaAttr,
   callAllHandlers,
@@ -13,7 +13,7 @@ import {
   normalizeEventKey,
   PropGetter,
   StringOrNumber,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import { ChangeEvent, KeyboardEvent, useCallback, useRef } from "react"
 import { useSpinner } from "./use-spinner"
 import {

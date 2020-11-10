@@ -1,5 +1,5 @@
-import { chakra, forwardRef, HTMLChakraProps } from "@chakra-ui/system"
-import { cx, __DEV__ } from "@chakra-ui/utils"
+import { chakra, forwardRef, HTMLChakraProps } from "@hackr/chakra-ui-system"
+import { cx, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 /**

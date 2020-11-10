@@ -1,4 +1,4 @@
-import Icon, { IconProps } from "@chakra-ui/icon"
+import Icon, { IconProps } from "@hackr/chakra-ui-icon"
 import {
   chakra,
   forwardRef,
@@ -8,8 +8,8 @@ import {
   ThemingProps,
   omitThemingProps,
   StylesProvider,
-} from "@chakra-ui/system"
-import { cx, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { cx, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { useFormControlContext } from "./form-control"
 

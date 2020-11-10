@@ -1,4 +1,4 @@
-import { mode } from "@chakra-ui/theme-tools"
+import { mode } from "@hackr/chakra-ui-theme-tools"
 
 const baseStyle = (props: Record<string, any>) => {
   return {

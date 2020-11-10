@@ -1,10 +1,10 @@
-import { useClickable, UseClickableProps } from "@chakra-ui/clickable"
-import { useDescendant, useDescendants } from "@chakra-ui/descendant"
+import { useClickable, UseClickableProps } from "@hackr/chakra-ui-clickable"
+import { useDescendant, useDescendants } from "@hackr/chakra-ui-descendant"
 import {
   useControllableState,
   useId,
   useSafeLayoutEffect,
-} from "@chakra-ui/hooks"
+} from "@hackr/chakra-ui-hooks"
 import {
   ariaAttr,
   callAllHandlers,
@@ -15,7 +15,7 @@ import {
   isUndefined,
   mergeRefs,
   normalizeEventKey,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 export interface UseTabsProps {

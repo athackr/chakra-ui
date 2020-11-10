@@ -1,7 +1,7 @@
-import { Button } from "@chakra-ui/button"
-import { Image } from "@chakra-ui/image"
-import { Portal } from "@chakra-ui/portal"
-import { chakra } from "@chakra-ui/system"
+import { Button } from "@hackr/chakra-ui-button"
+import { Image } from "@hackr/chakra-ui-image"
+import { Portal } from "@hackr/chakra-ui-portal"
+import { chakra } from "@hackr/chakra-ui-system"
 import * as React from "react"
 import {
   FaChevronDown,

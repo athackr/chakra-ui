@@ -1,5 +1,5 @@
-import { SystemStyleObject } from "@chakra-ui/system"
-import { Dict, runIfFn } from "@chakra-ui/utils"
+import { SystemStyleObject } from "@hackr/chakra-ui-system"
+import { Dict, runIfFn } from "@hackr/chakra-ui-utils"
 
 export interface GlobalStyleProps {
   colorScheme: string

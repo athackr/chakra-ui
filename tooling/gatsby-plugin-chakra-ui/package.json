@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-plugin-chakra-ui",
-  "version": "1.0.0-rc.8",
+  "name": "@hackr/gatsby-plugin-chakra-ui",
+  "version": "1.0.0-rc.10",
   "description": "Drop-in Chakra UI support for Gatsby sites",
   "author": "Alex Luong <alex@alexluong.com>",
   "license": "MIT",
@@ -18,8 +18,9 @@
     "test": "jest --passWithNoTests"
   },
   "peerDependencies": {
-    "@chakra-ui/core": ">=1.0.0-rc.5",
-    "@chakra-ui/theme": ">=1.0.0-rc.5",
+    "@hackr/chakra-ui-core": ">=1.0.0-rc.5",
+    "@hackr/chakra-ui-theme": ">=1.0.0-rc.5",
     "gatsby": "^2.24.85"
-  }
+  },
+  "gitHead": "3a3062b2f2c55eaf11604535373545c0303060ad"
 }

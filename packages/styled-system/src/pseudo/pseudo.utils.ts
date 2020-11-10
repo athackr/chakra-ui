@@ -1,4 +1,4 @@
-import { Dict, isObject, isFunction } from "@chakra-ui/utils"
+import { Dict, isObject, isFunction } from "@hackr/chakra-ui-utils"
 import { pseudoSelectors } from "./pseudo.selector"
 
 export function parsePseudo(props: Dict) {

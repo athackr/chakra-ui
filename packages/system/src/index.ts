@@ -1,5 +1,5 @@
-export * from "@chakra-ui/color-mode"
-export * from "@chakra-ui/styled-system"
+export * from "@hackr/chakra-ui-color-mode"
+export * from "@hackr/chakra-ui-styled-system"
 export {
   keyframes,
   CacheProvider,

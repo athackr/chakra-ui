@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useBoolean, useDisclosure } from "@chakra-ui/hooks"
+import { useBoolean, useDisclosure } from "@hackr/chakra-ui-hooks"
 import { Collapse, CollapseOptions } from "../src/collapse"
 
 export default {

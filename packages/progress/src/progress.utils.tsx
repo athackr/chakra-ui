@@ -1,5 +1,5 @@
-import { keyframes } from "@chakra-ui/system"
-import { isFunction, valueToPercent } from "@chakra-ui/utils"
+import { keyframes } from "@hackr/chakra-ui-system"
+import { isFunction, valueToPercent } from "@hackr/chakra-ui-utils"
 
 export const spin = keyframes({
   "0%": {

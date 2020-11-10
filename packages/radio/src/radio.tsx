@@ -8,8 +8,8 @@ import {
   ThemingProps,
   useMultiStyleConfig,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { callAll, split, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { callAll, split, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { useRadioGroupContext } from "./radio-group"
 import { useRadio, UseRadioProps } from "./use-radio"

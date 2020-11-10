@@ -1,12 +1,12 @@
-import { useBoolean, useControllableProp } from "@chakra-ui/hooks"
+import { useBoolean, useControllableProp } from "@hackr/chakra-ui-hooks"
 import {
   ariaAttr,
   callAllHandlers,
   dataAttr,
   mergeRefs,
   PropGetter,
-} from "@chakra-ui/utils"
-import { visuallyHiddenStyle } from "@chakra-ui/visually-hidden"
+} from "@hackr/chakra-ui-utils"
+import { visuallyHiddenStyle } from "@hackr/chakra-ui-visually-hidden"
 import {
   ChangeEvent,
   SyntheticEvent,

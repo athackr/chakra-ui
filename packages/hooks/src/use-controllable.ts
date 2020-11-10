@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { runIfFn, warn } from "@chakra-ui/utils"
+import { runIfFn, warn } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 export function useControllableProp<T>(prop: T | undefined, state: T) {

@@ -5,10 +5,10 @@ import {
   screen,
   act,
   waitFor,
-} from "@chakra-ui/test-utils"
-import { Portal } from "@chakra-ui/portal"
+} from "@hackr/chakra-ui-test-utils"
+import { Portal } from "@hackr/chakra-ui-portal"
 import * as React from "react"
-import { Button } from "@chakra-ui/button"
+import { Button } from "@hackr/chakra-ui-button"
 import { FaSearch, FaTruck, FaUndoAlt, FaUnlink } from "react-icons/fa"
 import {
   Menu,

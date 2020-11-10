@@ -5,8 +5,8 @@ import {
   Flex,
   HStack,
   Image,
-} from "@chakra-ui/core"
-import { StarIcon } from "@chakra-ui/icons"
+} from "@hackr/chakra-ui-core"
+import { StarIcon } from "@hackr/chakra-ui-icons"
 import { Property } from "../interfaces/Property"
 
 export const PropertySummary = ({ property }: { property: Property }) => {

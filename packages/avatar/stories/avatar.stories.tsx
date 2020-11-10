@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Avatar, AvatarBadge, AvatarGroup } from "../src"
-import { Stack, Box } from "@chakra-ui/layout"
-import { PropsOf } from "@chakra-ui/system"
+import { Stack, Box } from "@hackr/chakra-ui-layout"
+import { PropsOf } from "@hackr/chakra-ui-system"
 
 export default {
   title: "Avatar",

@@ -1,5 +1,5 @@
-import { Container } from "@chakra-ui/layout"
-import { chakra } from "@chakra-ui/system"
+import { Container } from "@hackr/chakra-ui-layout"
+import { chakra } from "@hackr/chakra-ui-system"
 import * as React from "react"
 import {
   Accordion,

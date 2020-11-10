@@ -4,8 +4,8 @@ import {
   SystemProps,
   forwardRef,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { omit, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { omit, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { useImage, UseImageProps } from "./use-image"
 

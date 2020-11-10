@@ -2,8 +2,8 @@ import {
   ResponsiveValue,
   SystemProps,
   SystemStyleObject,
-} from "@chakra-ui/styled-system"
-import { Dict } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-styled-system"
+import { Dict } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { ComponentWithAs } from "./forward-ref"
 

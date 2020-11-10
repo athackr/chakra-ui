@@ -8,8 +8,8 @@ import {
   ThemingProps,
   useMultiStyleConfig,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { callAll, cx, Omit, __DEV__, dataAttr } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { callAll, cx, Omit, __DEV__, dataAttr } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { useCheckboxGroupContext } from "./checkbox-group"
 import { CheckboxIcon } from "./checkbox-icon"

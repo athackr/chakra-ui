@@ -6,17 +6,17 @@ dialog footers and as stand-alone action triggers.
 ## Installation
 
 ```sh
-yarn add @chakra-ui/button
+yarn add @hackr/chakra-ui-button
 
 # or
 
-npm i @chakra-ui/button
+npm i @hackr/chakra-ui-button
 ```
 
 ## Import component
 
 ```jsx
-import { Button } from "@chakra-ui/button"
+import { Button } from "@hackr/chakra-ui-button"
 ```
 
 ## Usage

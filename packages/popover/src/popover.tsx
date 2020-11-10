@@ -1,4 +1,4 @@
-import { CloseButton, CloseButtonProps } from "@chakra-ui/close-button"
+import { CloseButton, CloseButtonProps } from "@hackr/chakra-ui-close-button"
 import {
   chakra,
   forwardRef,
@@ -9,14 +9,14 @@ import {
   useMultiStyleConfig,
   useStyles,
   HTMLChakraProps,
-} from "@chakra-ui/system"
+} from "@hackr/chakra-ui-system"
 import {
   createContext,
   cx,
   MaybeRenderProp,
   runIfFn,
   __DEV__,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import { motion, Variants } from "framer-motion"
 import * as React from "react"
 import { usePopover, UsePopoverProps, UsePopoverReturn } from "./use-popover"

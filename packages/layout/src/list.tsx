@@ -1,12 +1,12 @@
-import { Icon, IconProps } from "@chakra-ui/icon"
+import { Icon, IconProps } from "@hackr/chakra-ui-icon"
 import {
   chakra,
   SystemProps,
   forwardRef,
   PropsOf,
   HTMLChakraProps,
-} from "@chakra-ui/system"
-import { getValidChildren, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { getValidChildren, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 
 interface ListOptions {

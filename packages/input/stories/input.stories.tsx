@@ -1,4 +1,4 @@
-import { chakra } from "@chakra-ui/system"
+import { chakra } from "@hackr/chakra-ui-system"
 import * as React from "react"
 import {
   Input,
@@ -8,14 +8,14 @@ import {
   InputRightElement,
   InputGroup,
 } from "../src"
-import { Stack } from "@chakra-ui/layout"
+import { Stack } from "@hackr/chakra-ui-layout"
 import {
   FormControl,
   FormHelperText,
   FormLabel,
   FormErrorMessage,
-} from "@chakra-ui/form-control"
-import { PhoneIcon, CheckIcon } from "@chakra-ui/icons"
+} from "@hackr/chakra-ui-form-control"
+import { PhoneIcon, CheckIcon } from "@hackr/chakra-ui-icons"
 
 export default {
   title: "Input",

@@ -8,7 +8,7 @@ import {
   useColorModeValue,
   LinkProps,
   WrapItem,
-} from "@chakra-ui/core"
+} from "@hackr/chakra-ui-core"
 import { FaNpm, FaGithub } from "react-icons/fa"
 import StorybookIcon from "./storybook-icon"
 

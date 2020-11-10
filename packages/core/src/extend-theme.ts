@@ -1,5 +1,5 @@
-import defaultTheme, { Theme } from "@chakra-ui/theme"
-import { isFunction, mergeWith } from "@chakra-ui/utils"
+import defaultTheme, { Theme } from "@hackr/chakra-ui-theme"
+import { isFunction, mergeWith } from "@hackr/chakra-ui-utils"
 
 /**
  * Function to override or customize the Chakra UI theme conveniently

@@ -1,11 +1,11 @@
-import { useDescendants, useDescendant } from "@chakra-ui/descendant"
-import { useControllableState, useId } from "@chakra-ui/hooks"
+import { useDescendants, useDescendant } from "@hackr/chakra-ui-descendant"
+import { useControllableState, useId } from "@hackr/chakra-ui-hooks"
 import {
   mergeRefs,
   callAllHandlers,
   createContext,
   ariaAttr,
-} from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-utils"
 import {
   useState,
   useEffect,

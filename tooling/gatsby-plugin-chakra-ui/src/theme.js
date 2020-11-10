@@ -1,3 +1,3 @@
-import theme from "@chakra-ui/theme"
+import theme from "@hackr/chakra-ui-theme"
 
 export default theme

@@ -1,4 +1,4 @@
-import { chakra, useColorModeValue, useTheme } from "@chakra-ui/core"
+import { chakra, useColorModeValue, useTheme } from "@hackr/chakra-ui-core"
 import * as React from "react"
 import loadScript from "utils/load-script"
 

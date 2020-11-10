@@ -6,8 +6,8 @@ import {
   ThemingProps,
   useStyleConfig,
   useStyles,
-} from "@chakra-ui/system"
-import { cx, dataAttr, Dict, __DEV__ } from "@chakra-ui/utils"
+} from "@hackr/chakra-ui-system"
+import { cx, dataAttr, Dict, __DEV__ } from "@hackr/chakra-ui-utils"
 import * as React from "react"
 import { useFormControlContext } from "./form-control"
 
