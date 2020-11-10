@@ -1,6 +1,6 @@
 {
   "name": "@hackr/chakra-ui-styled-system",
-  "version": "1.0.0-rc.10",
+  "version": "1.0.0-rc.11",
   "description": "Style function for css-in-js building component libraries",
   "keywords": [
     "theme",
@@ -54,7 +54,7 @@
     "lint": "concurrently yarn:lint:*"
   },
   "dependencies": {
-    "@hackr/chakra-ui-utils": "1.0.0-rc.10",
+    "@hackr/chakra-ui-utils": "1.0.0-rc.11",
     "@styled-system/core": "5.1.2",
     "css-get-unit": "1.0.1",
     "csstype": "3.0.3"

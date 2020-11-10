@@ -1,6 +1,6 @@
 {
   "name": "@hackr/chakra-ui-live-region",
-  "version": "1.0.0-rc.10",
+  "version": "1.0.0-rc.11",
   "description": "Aria live region for React components",
   "keywords": [
     "aria",
@@ -53,7 +53,7 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@hackr/chakra-ui-utils": "1.0.0-rc.10"
+    "@hackr/chakra-ui-utils": "1.0.0-rc.11"
   },
   "peerDependencies": {
     "react": "16.x || 17.x"

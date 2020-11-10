@@ -1,6 +1,6 @@
 {
   "name": "@hackr/chakra-ui-icon",
-  "version": "1.0.0-rc.10",
+  "version": "1.0.0-rc.11",
   "description": "A base React component for icons",
   "keywords": [
     "react",
@@ -51,10 +51,10 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@hackr/chakra-ui-utils": "1.0.0-rc.10"
+    "@hackr/chakra-ui-utils": "1.0.0-rc.11"
   },
   "devDependencies": {
-    "@hackr/chakra-ui-system": "1.0.0-rc.10"
+    "@hackr/chakra-ui-system": "1.0.0-rc.11"
   },
   "peerDependencies": {
     "@hackr/chakra-ui-system": ">=1.0.0-rc.5",

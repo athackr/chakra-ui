@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.11 (2020-11-10)
+
+### Bug Fixes
+
+- package json exports
+  ([a10c0bc](https://github.com/chakra-ui/chakra-ui/commit/a10c0bcb809314a96d58c7febd9b2755e8997603))
+- **test:** breakpoint test
+  ([ec67f0d](https://github.com/chakra-ui/chakra-ui/commit/ec67f0d3872d45c03de8f3ed90b044000e317831))
+- **themetools:** object.entries node v10 compat
+  ([4228e53](https://github.com/chakra-ui/chakra-ui/commit/4228e53f175d51805de28f504f6da21057512e77))
+- ts issue with sx prop
+  ([d3b1340](https://github.com/chakra-ui/chakra-ui/commit/d3b1340cb255937927b4d4c56ce218141570b951))
+
+### Features
+
+- merge base breakpoint
+  ([61c1148](https://github.com/chakra-ui/chakra-ui/commit/61c114855fc5a14f0c14ff4b2ef291c413702302))
+- **themetools:** add createBreakpoints
+  ([331c7d8](https://github.com/chakra-ui/chakra-ui/commit/331c7d8bca96ddfc07d8e2bfdc71289cabff60a2))
+- add support for single and multipart config
+  ([a13d0f8](https://github.com/chakra-ui/chakra-ui/commit/a13d0f8a3d97405bde6acba1c4fc126677154a8b))
+- add use-props hook for better dx
+  ([0854d64](https://github.com/chakra-ui/chakra-ui/commit/0854d64f32d7344184ace1163cc68fd982964261))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # 1.0.0-rc.10 (2020-11-10)
 
 ### Bug Fixes

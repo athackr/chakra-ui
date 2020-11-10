@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.11 (2020-11-10)
+
+### Bug Fixes
+
+- forward theme.config in Gatsby plugin
+  ([d3a1e5e](https://github.com/chakra-ui/chakra-ui/commit/d3a1e5edff8f948d1f8ffcf01bb8b1669d5351dc)),
+  closes
+  [/github.com/chakra-ui/chakra-ui/commit/097c783a00736a119b253fb26316c7538de929c5#diff-d296f0384fcd423d710d49ec1d834d32R57](https://github.com//github.com/chakra-ui/chakra-ui/commit/097c783a00736a119b253fb26316c7538de929c5/issues/diff-d296f0384fcd423d710d49ec1d834d32R57)
+  [/github.com/chakra-ui/chakra-ui/blob/develop/packages/core/src/chakra-provider.tsx#L60](https://github.com//github.com/chakra-ui/chakra-ui/blob/develop/packages/core/src/chakra-provider.tsx/issues/L60)
+- **gatsby-plugin:** add react import to gatsby-ssr
+  ([055e359](https://github.com/chakra-ui/chakra-ui/commit/055e3592b93a1e79ab938bf797829aba9a23671f))
+- **tooling:** flip load order of CSSReset and GlobalStyles
+  ([b016175](https://github.com/chakra-ui/chakra-ui/commit/b0161753bcb498ae8db79b28bcb727aa54278c8e)),
+  closes [#1609](https://github.com/chakra-ui/chakra-ui/issues/1609)
+
+### Features
+
+- add use-props hook for better dx
+  ([0854d64](https://github.com/chakra-ui/chakra-ui/commit/0854d64f32d7344184ace1163cc68fd982964261))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [1.0.0-rc.10](https://github.com/chakra-ui/chakra-ui/compare/@hackr/gatsby-plugin-chakra-ui@1.0.0-rc.8...@hackr/gatsby-plugin-chakra-ui@1.0.0-rc.10) (2020-11-10)
 
 **Note:** Version bump only for package @hackr/gatsby-plugin-chakra-ui

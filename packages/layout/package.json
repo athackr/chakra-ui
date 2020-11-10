@@ -1,6 +1,6 @@
 {
   "name": "@hackr/chakra-ui-layout",
-  "version": "1.0.0-rc.10",
+  "version": "1.0.0-rc.11",
   "description": "Chakra UI layout components that give you massive speed",
   "keywords": [
     "layout",
@@ -58,11 +58,11 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@hackr/chakra-ui-icon": "1.0.0-rc.10",
-    "@hackr/chakra-ui-utils": "1.0.0-rc.10"
+    "@hackr/chakra-ui-icon": "1.0.0-rc.11",
+    "@hackr/chakra-ui-utils": "1.0.0-rc.11"
   },
   "devDependencies": {
-    "@hackr/chakra-ui-system": "1.0.0-rc.10"
+    "@hackr/chakra-ui-system": "1.0.0-rc.11"
   },
   "peerDependencies": {
     "@hackr/chakra-ui-system": ">=1.0.0-rc.5",

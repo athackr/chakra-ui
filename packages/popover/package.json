@@ -1,6 +1,6 @@
 {
   "name": "@hackr/chakra-ui-popover",
-  "version": "1.0.0-rc.10",
+  "version": "1.0.0-rc.11",
   "description": "A React component to render that renders its content in a popover",
   "keywords": [
     "popover",
@@ -52,15 +52,15 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@hackr/chakra-ui-close-button": "1.0.0-rc.10",
-    "@hackr/chakra-ui-hooks": "1.0.0-rc.10",
-    "@hackr/chakra-ui-popper": "1.0.0-rc.10",
-    "@hackr/chakra-ui-portal": "1.0.0-rc.10",
-    "@hackr/chakra-ui-transition": "1.0.0-rc.10",
-    "@hackr/chakra-ui-utils": "1.0.0-rc.10"
+    "@hackr/chakra-ui-close-button": "1.0.0-rc.11",
+    "@hackr/chakra-ui-hooks": "1.0.0-rc.11",
+    "@hackr/chakra-ui-popper": "1.0.0-rc.11",
+    "@hackr/chakra-ui-portal": "1.0.0-rc.11",
+    "@hackr/chakra-ui-transition": "1.0.0-rc.11",
+    "@hackr/chakra-ui-utils": "1.0.0-rc.11"
   },
   "devDependencies": {
-    "@hackr/chakra-ui-system": "1.0.0-rc.10",
+    "@hackr/chakra-ui-system": "1.0.0-rc.11",
     "framer-motion": "^2.9.3"
   },
   "peerDependencies": {

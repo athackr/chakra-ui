@@ -1,6 +1,6 @@
 {
   "name": "@hackr/chakra-ui-props-docs",
-  "version": "1.0.0-rc.10",
+  "version": "1.0.0-rc.11",
   "description": "Extracts prop types for documentation purposes",
   "keywords": [
     "docs",
@@ -49,8 +49,8 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@hackr/chakra-ui-core": "1.0.0-rc.10",
-    "@hackr/chakra-ui-styled-system": "1.0.0-rc.10",
+    "@hackr/chakra-ui-core": "1.0.0-rc.11",
+    "@hackr/chakra-ui-styled-system": "1.0.0-rc.11",
     "glob": "^7.1.6",
     "mkdirp": "^1.0.4",
     "react-docgen-typescript": "^1.20.5",

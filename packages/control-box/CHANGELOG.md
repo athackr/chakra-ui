@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-rc.11 (2020-11-10)
+
+### Bug Fixes
+
+- package json exports
+  ([a10c0bc](https://github.com/chakra-ui/chakra-ui/commit/a10c0bcb809314a96d58c7febd9b2755e8997603))
+- types
+  ([7a70ea1](https://github.com/chakra-ui/chakra-ui/commit/7a70ea1dfab75639c04882828bd56f793a691841))
+
+### Features
+
+- add use-props hook for better dx
+  ([0854d64](https://github.com/chakra-ui/chakra-ui/commit/0854d64f32d7344184ace1163cc68fd982964261))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # 1.0.0-rc.10 (2020-11-10)
 
 ### Bug Fixes

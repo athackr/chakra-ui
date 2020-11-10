@@ -1,6 +1,6 @@
 {
   "name": "@hackr/chakra-ui-menu",
-  "version": "1.0.0-rc.10",
+  "version": "1.0.0-rc.11",
   "description": "A React component to render accessible menus",
   "keywords": [
     "menu",
@@ -54,15 +54,15 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@hackr/chakra-ui-clickable": "1.0.0-rc.10",
-    "@hackr/chakra-ui-descendant": "1.0.0-rc.10",
-    "@hackr/chakra-ui-hooks": "1.0.0-rc.10",
-    "@hackr/chakra-ui-popper": "1.0.0-rc.10",
-    "@hackr/chakra-ui-transition": "1.0.0-rc.10",
-    "@hackr/chakra-ui-utils": "1.0.0-rc.10"
+    "@hackr/chakra-ui-clickable": "1.0.0-rc.11",
+    "@hackr/chakra-ui-descendant": "1.0.0-rc.11",
+    "@hackr/chakra-ui-hooks": "1.0.0-rc.11",
+    "@hackr/chakra-ui-popper": "1.0.0-rc.11",
+    "@hackr/chakra-ui-transition": "1.0.0-rc.11",
+    "@hackr/chakra-ui-utils": "1.0.0-rc.11"
   },
   "devDependencies": {
-    "@hackr/chakra-ui-system": "1.0.0-rc.10",
+    "@hackr/chakra-ui-system": "1.0.0-rc.11",
     "framer-motion": "^2.9.3"
   },
   "peerDependencies": {
